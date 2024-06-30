@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <h2>演習問題1</h2>
+        <script>
+            const SILVER_POINT = 200;
+            const GOLD_POINT = 700;
+            const PLATINUM_POINT = 2000;
+            const DIAMOND_POINT = 4000;
+
+            let point = 700;
+            
+            if (point < SILVER_POINT) {
+                console.log('レギュラーランク');
+            } else if (point < GOLD_POINT) {
+                console.log('シルバーランク');
+            } else if (point < PLATINUM_POINT) {
+                console.log('ゴールドランク');
+            } else if (point < DIAMOND_POINT) {
+                console.log('プラチナランク');
+            } else {
+                console.log('ダイアモンドランク');
+            }
+        </script>
+    </body>
+</html>
